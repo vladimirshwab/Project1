@@ -1,0 +1,1222 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+.head
+{
+	width: 1250px;
+	height: 100px;
+	border-bottom:1px solid grey;
+	
+}
+.headimage
+{	display: inline-block;
+	margin-left: 5px;
+	margin-top: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.headimage2
+{
+	
+	margin: 5px
+	
+
+}
+.headimage2 a
+{
+	color: grey;
+	
+}
+.headimage2:hover a
+{
+	text-decoration: none;
+	color: red;
+}
+.descrip2
+{
+	
+	
+	width:200px;
+	text-align: center;
+	height:25px;
+	font-weight: bold;
+	padding: 2px;
+	background-color: white;
+	border: 2px solid grey;
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+
+.container {
+	width: 1250px;
+	border-bottom:1px solid grey;
+}
+.container a{
+	color: grey;
+}
+
+.frontcar
+{	background-image: url("img/front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	height: 910px;
+	width: 1250px;
+	border:1px solid red;
+}
+.backcar
+{	background-image: url("img/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	height: 910px;
+	width: 1250px;
+	border:1px solid red;
+}
+
+
+.lowhighbeam
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+.trunklighting
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+
+.foglights
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+.interiorlighting
+{
+	float: right;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px;
+	margin-top: 350px
+}
+.parkinglights
+{
+	float: right;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+.turnindicators
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px;
+	margin-top: 350px
+}
+
+.stoplights
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+.rearfoglights
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px
+}
+.rearlights
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px;
+	margin-top: 500px
+}
+.backlightplate
+{
+	float: left;
+	margin: 3px;
+	border:1px solid red;
+	padding: 0px;
+	margin-top: 500px
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfixcolor
+{border:1px solid orange;}
+
+.descrip
+{
+	
+	color: white;
+	width:200px;
+	text-align: center;
+	height:25px;
+	font-weight: bold;
+	padding: 2px;
+	background-color: rgb(99,99,99);
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+.descripbig
+{
+	
+	color: white;
+	width:250px;
+	text-align: center;
+	height:25px;
+	font-weight: bold;
+	padding: 2px;
+	background-color: rgb(99,99,99);
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+.list1
+{
+	float: left;
+	margin-right: 2px;
+	border: 1px solid green;
+}
+
+.pist1
+{width: 300px;
+	height: 200px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist1 li
+{
+	float: left;
+	text-align: center;
+}
+.pist2
+{width: 380px;
+	height: 200px;
+list-style: none;
+margin: 0px;
+padding: 0px
+
+
+}
+.pist2 li
+{
+	float: left;
+	text-align: center;
+}
+.pist3
+{width: 460px;
+	height: 170px;
+list-style: none;
+margin: 0px;
+padding: 0px
+
+
+}
+.pist3 li
+{
+	float: left;
+	text-align: center;
+}
+.pist4
+{width: 200px;
+	height: 300px;
+list-style: none;
+margin: 0px;
+padding: 0px
+
+
+}
+.pist4 li
+{
+	float: left;
+	text-align: center;
+}
+.pist5
+{width: 530px;
+	height: 170px;
+list-style: none;
+margin: 0px;
+padding: 0px
+
+
+}
+.pist5 li
+{
+	float: left;
+	text-align: center;
+}
+.pist6
+{width: 300px;
+	height: 90px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist6 li
+{
+	float: left;
+	text-align: center;
+}
+.pist7
+{width: 370px;
+	height: 155px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist7 li
+{
+	float: left;
+	text-align: center;
+}
+.pist8
+{width: 250px;
+	height: 155px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist8 li
+{
+	float: left;
+	text-align: center;
+}
+.pist9
+{width: 400px;
+	height: 100px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist9 li
+{
+	float: left;
+	text-align: center;
+}
+.pist10
+{width: 300px;
+	height: 100px;
+list-style: none;
+margin: 0px;
+margin-left: 0px;
+border: 1px solid blue;
+padding: 0px
+
+
+}
+.pist10 li
+{
+	float: left;
+	text-align: center;
+}
+
+.list
+{
+	list-style: none;
+	margin: 0;
+	margin-left: -38px;
+}
+.list li
+{
+	float: left;
+    margin-right: 1px;
+    text-align: center;
+
+
+}
+
+.lightbubl
+{
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 72px;
+    border: 1px solid white;
+}
+.lightbubl p
+{padding-top: 38px;}
+
+.lightbublbig
+{
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 57px;
+    height: 72px;
+    border: 1px solid white;
+}
+.lightbublbig p
+{padding-top: 38px;}
+
+.lightlink:visited
+{
+	color: #404040;
+}
+.lightlink:hover
+{
+	text-decoration: none;
+	color: red;
+}
+.white
+{background-color: white}
+
+.bax
+{
+	background-image: url("img/H1.jpg");
+}
+.bax:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+.c3w
+{
+	background-image: url("img/H1.jpg");
+}
+.c3w:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+.c5w
+{
+	background-image: url("img/H1.jpg");
+}
+.c5w:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+.c10w
+{
+	background-image: url("img/H1.jpg");
+}
+.c10w:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+.c15w
+{
+	background-image: url("img/H1.jpg");
+}
+.c15w:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+.h1
+{
+	background-image: url("img/H1.jpg");
+}
+.h1:hover
+{
+	background-image: url("img/H1+.jpg");
+}
+
+.h3
+{
+	background-image: url("img/H3.jpg");
+}
+.h3:hover
+{
+	background-image: url("img/H3+.jpg");
+}
+
+.h4
+{
+	background-image: url("img/H4.jpg");
+}
+.h4:hover
+{
+		background-image: url("img/H4+.jpg");
+}
+.h5w
+{
+	background-image: url("img/h5w.jpg");
+}
+.h5w:hover
+{
+		background-image: url("img/h5w+.jpg");
+}
+.h6w
+{
+	background-image: url("img/h6w.jpg");
+}
+.h6w:hover
+{
+		background-image: url("img/h6w+.jpg");
+}
+.h7
+{
+	background-image: url("img/H7.jpg");
+}
+.h7:hover
+{
+		background-image: url("img/H7+.jpg");
+}
+
+.h8
+{
+	background-image: url("img/H8.jpg");
+}
+.h8:hover
+{
+		background-image: url("img/H8+.jpg");
+}
+.h9
+{
+	background-image: url("img/H9.jpg");
+}
+.h9:hover
+{
+		background-image: url("img/H9+.jpg");
+}
+.h10
+{
+	background-image: url("img/H10.jpg");
+}
+.h10:hover
+{
+		background-image: url("img/H10+.jpg");
+}
+.h10w
+{
+	background-image: url("img/h10w.jpg");
+}
+.h10w:hover
+{
+		background-image: url("img/h10w+.jpg");
+}
+.h11
+{
+	background-image: url("img/H11.jpg");
+}
+.h11:hover
+{
+		background-image: url("img/H11+.jpg");
+}
+.h13
+{
+	background-image: url("img/H13.jpg");
+}
+.h13:hover
+{
+		background-image: url("img/H13+.jpg");
+}
+.h15
+{
+	background-image: url("img/H15.jpg");
+}
+.h15:hover
+{
+		background-image: url("img/H15+.jpg");
+}
+.h16
+{
+	background-image: url("img/H16.jpg");
+}
+.h16:hover
+{
+		background-image: url("img/H16+.jpg");
+}
+.h20w
+{
+	background-image: url("img/h20w.jpg");
+}
+.h20w:hover
+{
+		background-image: url("img/h20w+.jpg");
+}
+.h21w
+{
+	background-image: url("img/h21w.jpg");
+}
+.h21w:hover
+{
+		background-image: url("img/h21w+.jpg");
+}
+.h27
+{
+	background-image: url("img/H27.jpg");
+}
+.h27:hover
+{
+		background-image: url("img/H27+.jpg");
+}
+.hb1
+{
+	background-image: url("img/HB1.jpg");
+}
+.hb1:hover
+{
+		background-image: url("img/HB1+.jpg");
+}
+.hb3
+{
+	background-image: url("img/HB3.jpg");
+}
+.hb3:hover
+{
+		background-image: url("img/HB3+.jpg");
+}
+.hb4
+{
+	background-image: url("img/HB4.jpg");
+}
+.hb4:hover
+{
+		background-image: url("img/HB4+.jpg");
+}
+.hb5
+{
+	background-image: url("img/hb5.jpg");
+}
+.hb5:hover
+{
+		background-image: url("img/hb5+.jpg");
+}
+.hir2
+{
+	background-image: url("img/hir2.jpg");
+}
+.hir2:hover
+{
+		background-image: url("img/hir2+.jpg");
+}
+.hy21w
+{
+	background-image: url("img/hy21w.jpg");
+}
+.hy21w:hover
+{
+		background-image: url("img/hy21w+.jpg");
+}
+.d1r
+{
+	background-image: url("img/d1r.jpg");
+}
+.d1r:hover
+{
+		background-image: url("img/d1r+.jpg");
+}
+.d1s
+{
+	background-image: url("img/d1s.jpg");
+}
+.d1s:hover
+{
+		background-image: url("img/d1s+.jpg");
+}
+.d2r
+{
+	background-image: url("img/d2r.jpg");
+}
+.d2r:hover
+{
+		background-image: url("img/d2r+.jpg");
+}
+.d2s
+{
+	background-image: url("img/d2s.jpg");
+}
+.d2s:hover
+{
+		background-image: url("img/d2s+.jpg");
+}
+.d3r
+{
+	background-image: url("img/d3r.jpg");
+}
+.d3r:hover
+{
+		background-image: url("img/d3r+.jpg");
+}
+.d3s
+{
+	background-image: url("img/d3s.jpg");
+}
+.d3s:hover
+{
+		background-image: url("img/d3s+.jpg");
+}
+.d4r
+{
+	background-image: url("img/d4r.jpg");
+}
+.d4r:hover
+{
+		background-image: url("img/d4r+.jpg");
+}
+.d4s
+{
+	background-image: url("img/d4s.jpg");
+}
+.d4s:hover
+{
+		background-image: url("img/d4s+.jpg");
+}
+.p13w
+{
+	background-image: url("img/p13w.jpg");
+}
+.p13w:hover
+{
+		background-image: url("img/p13w+.jpg");
+}
+.ps19w
+{
+	background-image: url("img/ps19w.jpg");
+}
+.ps19w:hover
+{
+		background-image: url("img/ps19w+.jpg");
+}
+.p21w
+{
+	background-image: url("img/p21w.jpg");
+}
+.p21w:hover
+{
+		background-image: url("img/p21w+.jpg");
+}
+.p22
+{
+	background-image: url("img/H1.jpg");
+}
+.p22:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.p25
+{
+	background-image: url("img/H1.jpg");
+}
+.p25:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.pcy16w
+{
+	background-image: url("img/H1.jpg");
+}
+.pcy16w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.pr21w
+{
+	background-image: url("img/H1.jpg");
+}
+.pr21w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+
+
+.ps24w
+{
+	background-image: url("img/ps24w.jpg");
+}
+.ps24w:hover
+{
+		background-image: url("img/ps24w+.jpg");
+}
+.psx24w
+{
+	background-image: url("img/psx24w.jpg");
+}
+.psx24w:hover
+{
+		background-image: url("img/psx24w+.jpg");
+}
+.psy19w
+{
+	background-image: url("img/H1.jpg");
+}
+.psy19w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.psy24w
+{
+	background-image: url("img/H1.jpg");
+}
+.psy24w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.pw16w
+{
+	background-image: url("img/pw16w.jpg");
+}
+.pw16w:hover
+{
+		background-image: url("img/pw16w+.jpg");
+}
+.pw24w
+{
+	background-image: url("img/pw24w.jpg");
+}
+.pw24w:hover
+{
+		background-image: url("img/pw24w+.jpg");
+}
+.py21w
+{
+	background-image: url("img/py21w.jpg");
+}
+.py21w:hover
+{
+		background-image: url("img/py21w+.jpg");
+}
+.py24w
+{
+	background-image: url("img/H1.jpg");
+}
+.py24w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.psx26w
+{
+	background-image: url("img/psx26w.jpg");
+}
+.psx26w:hover
+{
+		background-image: url("img/psx26w+.jpg");
+}
+.R2
+{
+	background-image: url("img/R2.jpg");
+}
+.R2:hover
+{
+		background-image: url("img/R2+.jpg");
+}
+.r5w
+{
+	background-image: url("img/r5w.jpg");
+}
+.r5w:hover
+{
+		background-image: url("img/r5w+.jpg");
+}
+.r10w
+{
+	background-image: url("img/r10w.jpg");
+}
+.r10w:hover
+{
+		background-image: url("img/r10w+.jpg");
+}
+.ry10w
+{
+	background-image: url("img/H1.jpg");
+}
+.ry10w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.t2w
+{
+	background-image: url("img/t2w.jpg");
+}
+.t2w:hover
+{
+		background-image: url("img/t2w+.jpg");
+}
+.t4w
+{
+	background-image: url("img/t4w.jpg");
+}
+.t4w:hover
+{
+		background-image: url("img/t4w+.jpg");
+}
+.t5w
+{
+	background-image: url("img/t5w.jpg");
+}
+.t5w:hover
+{
+		background-image: url("img/t5w+.jpg");
+}
+.w1-2w
+{
+	background-image: url("img/H1.jpg");
+}
+.w1-2w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w2-2w
+{
+	background-image: url("img/H1.jpg");
+}
+.w2-2w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w2-3w
+{
+	background-image: url("img/H1.jpg");
+}
+.w2-3w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w2w
+{
+	background-image: url("img/H1.jpg");
+}
+.w2w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w3w
+{
+	background-image: url("img/w3w.jpg");
+}
+.w3w:hover
+{
+		background-image: url("img/w3w+.jpg");
+}
+.w5w
+{
+	background-image: url("img/H1.jpg");
+}
+.w5w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w16w
+{
+	background-image: url("img/H1.jpg");
+}
+.w16w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.w21w
+{
+	background-image: url("img/H1.jpg");
+}
+.w21w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.wy5w
+{
+	background-image: url("img/H1.jpg");
+}
+.wy5w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+.wy21w
+{
+	background-image: url("img/H1.jpg");
+}
+.wy21w:hover
+{
+		background-image: url("img/H1+.jpg");
+}
+
+.action1
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam1:hover .action1
+{ position: absolute;
+left: 205px;
+top: 390px;
+display: block; }
+.action2
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 72px;
+    display: none;
+}
+.beam1:hover .action2
+{ position: absolute;
+left: 530px;
+top: 420px;
+display: block; }
+
+.action3
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam2:hover .action3
+{ position: absolute;
+left: -270px;
+top: 452px;
+display: block; }
+.action4
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam2:hover .action4
+{ position: absolute;
+left: -15px;
+top: 480px;
+display: block; }
+
+.action5
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam3:hover .action5
+{ position: absolute;
+left: -75px;
+top: -465px;
+display: block; }
+
+.action6
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam4:hover .action6
+{ position: absolute;
+left: -787px;
+top: 370px;
+display: block; }
+.action7
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam4:hover .action7
+{ position: absolute;
+left: -440px;
+top: 393px;
+display: block; }
+
+.action8
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam5:hover .action8
+{ position: absolute;
+left: 205px;
+top: -315px;
+display: block; }
+.action9
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam5:hover .action9
+{ position: absolute;
+left: 500px;
+top: -290px;
+display: block; }
+.action10
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam5:hover .action10
+{ position: absolute;
+left: 385px;
+top: -405px;
+display: block; }
+.action11
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam5:hover .action11
+{ position: absolute;
+left: 800px;
+top: -380px;
+display: block; }
+.action12
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam6:hover .action12
+{ position: absolute;
+left: 250px;
+top: 1420px;
+display: block; }
+.action13
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam7:hover .action13
+{ position: absolute;
+left: 310px;
+top: 1420px;
+display: block; }
+.action14
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam7:hover .action14
+{ position: absolute;
+left: 350px;
+top: 1420px;
+display: block; }
+
+.action15
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam8:hover .action15
+{ position: absolute;
+left: 300px;
+top: 1420px;
+display: block; }
+.action16
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam8:hover .action16
+{ position: absolute;
+left: 400px;
+top: 1420px;
+display: block; }
+
+.action17
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam9:hover .action17
+{ position: absolute;
+left: 300px;
+top: 1420px;
+display: block; }
+.action18
+{	background-image: url("img/qwe.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 72px;
+    display: none;
+}
+.beam9:hover .action18
+{ position: absolute;
+left: 400px;
+top: 1420px;
+display: block; }
